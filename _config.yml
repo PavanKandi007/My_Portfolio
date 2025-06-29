@@ -1,0 +1,26 @@
+title: Pavan Kumar Kandi - Portfolio
+description: Portfolio website of Pavan Kumar Kandi, Full Stack Developer
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://pavankumarkandi-portfolio.github.io" # the base hostname & protocol for your site
+
+theme: jekyll-theme-minimal
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - package.json
+  - package-lock.json
+  - .gitignore
+  - .git
+  - .github
+  - .vscode
+  - .idea
+  - .DS_Store
